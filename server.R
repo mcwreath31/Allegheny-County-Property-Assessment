@@ -2,8 +2,8 @@
 library(shiny)
 library(ggplot2)
 
-post <- read.csv(file = "C:\\Users\\KTMcw_000\\desktop\\RE-APP\\data\\Post.csv", header = TRUE)
-pre <- read.csv(file = "C:\\Users\\KTMcw_000\\desktop\\RE-APP\\data\\Pre.csv", header = TRUE)
+post <- read.csv(file = "./Post.csv", header = TRUE)
+pre <- read.csv(file = "./Pre.csv", header = TRUE)
 
 
 shinyServer(function(input, output) {
