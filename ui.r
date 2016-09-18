@@ -1,6 +1,6 @@
 ##UI 
 library(shiny)
-library(ggplot2)  # for the diamonds dataset
+library(ggplot2)  
 
 post <- read.csv(file = "./Post.csv", header = TRUE)
 pre <- read.csv(file = "./Pre.csv", header = TRUE)
@@ -28,9 +28,6 @@ shinyUI(pageWithSidebar(
                        'Select Post 1985 Property Assessment Fields:', 
                        names(post),
                        selected = names(post))
-    
-    
-    
     
     
     ),
